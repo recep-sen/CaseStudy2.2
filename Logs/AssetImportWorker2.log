@@ -1,0 +1,195 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.20f1 (be552157821d) revision 12473633'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 8077 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/recep/Desktop/Git/CaseStudy2.2
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+52151
+Successfully changed project path to: C:/Users/recep/Desktop/Git/CaseStudy2.2
+C:/Users/recep/Desktop/Git/CaseStudy2.2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 155.07 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 3.28 ms.
+Initialize engine version: 2021.1.20f1 (be552157821d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/recep/Desktop/Git/CaseStudy2.2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 950M (ID=0x139a)
+    Vendor:   NVIDIA
+    VRAM:     4055 MB
+    Driver:   30.0.14.9613
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.20f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.20f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.003377 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 136.28 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.407 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2407ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (646ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (318ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (137ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (122ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012888 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\recep\Desktop\Git\CaseStudy2.2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\recep\Desktop\Git\CaseStudy2.2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 136.09 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.1.0/Editor/EditorUtilities.cs:102)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.1.0/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.1.0/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.1.0/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.1.0/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.1.0/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.xr.management@4.1.0/Editor/EditorUtilities.cs line 102]
+
+UnityEngine.UnityException: Creating asset at path Assets\XR\Loaders\Magic Leap Loader.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at UnityEditor.XR.Management.EditorUtilities.CreateScriptableObjectInstance (System.String typeName, System.String path) [0x00031] in C:\Users\recep\Desktop\Git\CaseStudy2.2\Library\PackageCache\com.unity.xr.management@4.1.0\Editor\EditorUtilities.cs:102 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitializeLoaderFromMetadata (System.String packageName, System.Collections.Generic.List`1[T] loaderMetadatas) [0x0004e] in C:\Users\recep\Desktop\Git\CaseStudy2.2\Library\PackageCache\com.unity.xr.management@4.1.0\Editor\XRPackageInitialization.cs:152 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage package, UnityEditor.XR.Management.Metadata.IXRPackageMetadata packageMetadata) [0x00001] in C:\Users\recep\Desktop\Git\CaseStudy2.2\Library\PackageCache\com.unity.xr.management@4.1.0\Editor\XRPackageInitialization.cs:129 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage package) [0x00030] in C:\Users\recep\Desktop\Git\CaseStudy2.2\Library\PackageCache\com.unity.xr.management@4.1.0\Editor\XRPackageInitialization.cs:118 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.BeginPackageInitialization () [0x0008f] in C:\Users\recep\Desktop\Git\CaseStudy2.2\Library\PackageCache\com.unity.xr.management@4.1.0\Editor\XRPackageInitialization.cs:87 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap..cctor () [0x00030] in C:\Users\recep\Desktop\Git\CaseStudy2.2\Library\PackageCache\com.unity.xr.management@4.1.0\Editor\XRPackageInitialization.cs:50 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.113 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2114ms)
+		BeginReloadAssembly (209ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1820ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (501ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (961ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (136ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (655ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
+Refreshing native plugins compatible for Editor in 1.40 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3711 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.5 MB.
+System memory in use after: 130.7 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4156.
+Total: 5.481100 ms (FindLiveObjects: 0.597800 ms CreateObjectMapping: 0.664600 ms MarkObjects: 4.086400 ms  DeleteObjects: 0.131000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/BlankAR.unity
+  artifactKey: Guid(6bdce89659816455b9f906fc62d19910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BlankAR.unity using Guid(6bdce89659816455b9f906fc62d19910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba92c84029a57de4580a65c27625d35') in 0.026052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(fea2b03111fd44c01a102c644b335bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(fea2b03111fd44c01a102c644b335bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78484d8e5b2a00b4eca3f07d82403aa7') in 0.016641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 368.393688 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a956ff0e83af221383b1bd8a5281aa6') in 0.013987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.496275 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(24c0010cdc80ab744b151cf670880ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(24c0010cdc80ab744b151cf670880ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156bd178741f278932c7c99b838b0052') in 0.016322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.142730 seconds.
+  path: Assets/Prefabs/AR Default Plane.prefab
+  artifactKey: Guid(aad646cf12705db469567bb798681c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AR Default Plane.prefab using Guid(aad646cf12705db469567bb798681c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a320b3a202aae6f6db384fa8dfb23a7b') in 0.174797 seconds 
