@@ -24,11 +24,7 @@ public class ARCursor : MonoBehaviour
         {
             UpdateCursor();
         }
-        if (useCursor)
-        {
-            ObjectList.Add(GameObject.Instantiate(objectToPlace, transform.position, transform.rotation));
-        }
-        else if(Input.touchCount>0 && Input.GetTouch(0).phase == TouchPhase.Began)
+         if(Input.touchCount>0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
             List<ARRaycastHit> hits = new List<ARRaycastHit>();
             raycastManager.Raycast(Input.GetTouch(0).position, hits, UnityEngine.XR.ARSubsystems.TrackableType.Planes);
@@ -48,5 +44,6 @@ public class ARCursor : MonoBehaviour
             transform.position = hits[0].pose.position;
             transform.rotation = hits[0].pose.rotation;
         }
+        ObjectList.Add(GameObject.Instantiate(objectToPlace, transform.position, transform.rotation));
     }
 }
