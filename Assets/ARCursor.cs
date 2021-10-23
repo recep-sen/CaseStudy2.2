@@ -9,7 +9,8 @@ public class ARCursor : MonoBehaviour
     public GameObject objectToPlace;
     public ARRaycastManager raycastManager;
 
-    public bool useCursor = true;
+    public static bool useCursor = true;
+    public static List<GameObject> ObjectList = new List<GameObject>();
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +26,7 @@ public class ARCursor : MonoBehaviour
         }
         if (useCursor)
         {
-            GameObject.Instantiate(objectToPlace, transform.position, transform.rotation);
+            ObjectList.Add(GameObject.Instantiate(objectToPlace, transform.position, transform.rotation));
         }
         else if(Input.touchCount>0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
@@ -33,7 +34,7 @@ public class ARCursor : MonoBehaviour
             raycastManager.Raycast(Input.GetTouch(0).position, hits, UnityEngine.XR.ARSubsystems.TrackableType.Planes);
             if (hits.Count > 0)
             {
-                GameObject.Instantiate(objectToPlace, hits[0].pose.position, hits[0].pose.rotation);
+                ObjectList.Add(GameObject.Instantiate(objectToPlace, hits[0].pose.position, hits[0].pose.rotation));
             }
         }
     }
