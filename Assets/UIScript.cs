@@ -23,7 +23,7 @@ public class UIScript : MonoBehaviour
     public void RotateObject()
     {
         foreach(GameObject go in ARCursor.ObjectList){
-            go.transform.Rotate(new Vector3(10f, 0f, 0f));
+            go.transform.Rotate(new Vector3(0f, 10f, 0f));
         }
     }
     public void OpenColorMenu()
