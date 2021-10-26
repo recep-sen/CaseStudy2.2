@@ -14,12 +14,13 @@ public class ARCursor : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        cursorChildObject.SetActive(useCursor);
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        cursorChildObject.SetActive(useCursor);
         if (useCursor)
         {
             UpdateCursor();
@@ -44,6 +45,5 @@ public class ARCursor : MonoBehaviour
             transform.position = hits[0].pose.position;
             transform.rotation = hits[0].pose.rotation;
         }
-        ObjectList.Add(GameObject.Instantiate(objectToPlace, transform.position, transform.rotation));
     }
 }
